@@ -12,18 +12,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--body);
 }
 
-nav {
-  background-color: #f0ffff;
-  padding: 1rem 2rem;
+:root {
+  --body: rgb(244, 244, 255);
+  --container: rgb(244, 244, 255);
+  --dark: rgb(29, 29, 29);
+  --light: rgb(39, 39, 39);
+  --active: rgb(97, 218, 251);
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: var(--container);
+  width: 100%;
 }
 
 nav a {
-  margin-right: 1rem;
+  color: white;
+}
+
+/***** PRIMARY NAV *****/
+.primary-nav {
+  background-color: var(--dark);
+  padding: 1.5rem 0rem;
+}
+
+.primary-nav a {
+  padding: 1.5rem 3rem;
   text-decoration: none;
 }
 
-nav a.active {
-  font-weight: bold;
+.primary-nav a.active {
+  color: var(--active);
+  background-color: var(--light);
+  padding: 1.5rem 3rem;
+}
+
+/***** SECONDARY NAV *****/
+.secondary-nav {
+  background-color: var(--light);
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.secondary-nav a {
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.secondary-nav a.active {
+  color: var(--active);
+  padding: 1rem 2rem;
 }
