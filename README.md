@@ -1,5 +1,5 @@
 # React Router
-Routes, active links, no match route, nested routes.
+Routes, active links, no match route, nested routes, lazy loading :heavy_check_mark:
 
 ### Routes
 <img src="https://user-images.githubusercontent.com/64141913/150699805-8b4d8b0b-67f8-450b-a8a9-e794960be69b.png" width="100%">
