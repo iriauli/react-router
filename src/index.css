@@ -41,17 +41,19 @@ nav a {
 .primary-nav {
   background-color: var(--dark);
   padding: 1.5rem 0rem;
+  border-top: 2px solid var(--dark);
 }
 
 .primary-nav a {
   padding: 1.5rem 3rem;
-  text-decoration: none;
+  text-decoration: none;;
 }
 
 .primary-nav a.active {
   color: var(--active);
   background-color: var(--light);
   padding: 1.5rem 3rem;
+  border-top: 2px solid var(--active);
 }
 
 /***** SECONDARY NAV *****/

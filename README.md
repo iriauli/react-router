@@ -1,10 +1,13 @@
 # React Router
-Routes, active links, no match route, nested routes, lazy loading :heavy_check_mark:
+
+Routes, active links, no match route, nested routes, lazy loading, authentication, protected routes :heavy_check_mark:
 
 ### Routes
+
 <img src="https://user-images.githubusercontent.com/64141913/150699805-8b4d8b0b-67f8-450b-a8a9-e794960be69b.png" width="100%">
 
 ### Nested Routes
+
 <img src="https://user-images.githubusercontent.com/64141913/150699815-23c9147a-028c-4679-80fb-45b33474062d.png" width="100%">
 
 # Getting Started with Create React App
